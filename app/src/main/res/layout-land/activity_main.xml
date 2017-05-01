@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/activity_horizontal_margin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/titulo_principal"
+        android:gravity="center"
+        android:textSize="@dimen/tamano_titulos"
+        android:layout_margin="@dimen/margen_titulos" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:stretchColumns="*">
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/boton1_jugar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton1_jugar"/>
+            <Button
+                android:id="@+id/boton2_configurar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton2_configurar"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/boton3_acercade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton3_acercade"/>
+            <Button
+                android:id="@+id/boton4_salir"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/boton4_salir"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+</LinearLayout>
